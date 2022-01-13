@@ -13,8 +13,5 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-rpath -Wl,$ORIGIN")
 find_package(OpenCV REQUIRED)
 
 #main executable
-add_executable(vidWriter VideoGenerator.cpp)
-target_link_libraries(vidWriter ${OpenCV_LIBS})
-
-add_executable(orderedWriter videoGeneratorOpenCV.cpp)
+add_executable(orderedWriter videoGenerator.cpp)
 target_link_libraries(orderedWriter ${OpenCV_LIBS})
