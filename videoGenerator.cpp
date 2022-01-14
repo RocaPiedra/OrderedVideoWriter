@@ -8,8 +8,8 @@
 using namespace cv;
 using namespace std;
 
-#define DEFAULT_INPUT_PATH "/home/nvidia/repos/APPIDE/vidtest/RGB/IMAGES/1024x1024/"
-#define DEFAULT_OUTPUT_PATH "../WrittenVideos/Video.avi"
+#define DEFAULT_INPUT_PATH "../input_images/"
+#define DEFAULT_OUTPUT_PATH "../written_videos/Video.avi"
 #define DEFAULT_FPS 30
 #define DEFAULT_CODEC VideoWriter::fourcc('M', 'J', 'P', 'G')
 

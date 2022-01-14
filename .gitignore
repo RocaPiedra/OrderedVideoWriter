@@ -6,4 +6,7 @@ Makefile
 Video.avi
 VideoTest.avi
 VideoTest20fps.avi
-WrittenVideos
+input_images/*
+!input_images/.gitkeep 
+written_videos/*
+!written_videos/.gitkeep 
