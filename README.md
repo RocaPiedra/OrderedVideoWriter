@@ -21,7 +21,7 @@ Now, the executable is ready in the build folder to launch under the name define
 * 2: Output path including video file name 
 * 3: Frames per seconds wanted in the video <br />
 Example command: <br />
-`./orderedWriter ../input_images/ ../written_video/video.avi 30` <br /> 
+`./orderedWriter ../input_images/ ../written_videos/Video.avi 30` <br /> 
 #### If any of the input arguments is not written, the default values defined in the code are used.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
