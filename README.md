@@ -15,8 +15,8 @@ Go to the folder path and follow this steps to create an executable: <br />
 `cmake ..` <br />
 `make` <br />
 Now, the executable is ready in the build folder to launch under the name defined in the CMakeLists, launch it in Linux using: <br />
-`./orderedWriter` <br /> <br /> <br />
-The code allows input arguments to define several variables: <br />
+`./orderedWriter` <br />
+#### The code allows input arguments to define several variables: <br />
 * 1: Image folder path
 * 2: Output path including video file name 
 * 3: Frames per seconds wanted in the video <br />
