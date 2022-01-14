@@ -22,4 +22,6 @@ The code allows input arguments to define several variables: <br />
 * 3: Frames per seconds wanted in the video <br />
 Example command: <br />
 `./orderedWriter ../input_images/ ../written_video/video.avi 30` <br /> 
-If any of the input arguments is not written, the default values defined in the code are used.
+#### If any of the input arguments is not written, the default values defined in the code are used.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
